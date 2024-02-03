@@ -9,5 +9,4 @@ Below is a brief overview of the projects available in this repository. Project 
 
 1. Project 1: Landing Page
 2. Project 2: Todo List
-3. ...
 
