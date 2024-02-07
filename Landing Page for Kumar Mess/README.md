@@ -3,7 +3,11 @@
 Welcome to the Kumar Mess Landing Page ! This simple and elegant landing page showcases the menu items of Kumar Mess, a South Indian restaurant. The website is built using HTML and CSS, providing a delightful experience for visitors to explore the diverse and delicious offerings.
 ## Preview
 
-https://github.com/Srivishag/OCTANET_FEBRUARY/assets/91311329/def6f360-cd83-4e42-af46-188eda06cc4e
+
+https://github.com/Srivishag/OCTANET_FEBRUARY/assets/91311329/6e7cba40-c953-4612-ac82-ebd57af117aa
+
+
+
 
 ## Getting Started
 
