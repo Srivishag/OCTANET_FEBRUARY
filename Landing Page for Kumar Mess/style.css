@@ -22,6 +22,8 @@ body{
 .heading{
     display: flex;
     justify-content: center;
+    background-color:  rgb(250, 217, 127)  ;
+
 }
 .heading h1{
     font-size: 70px;
@@ -38,6 +40,7 @@ body{
     font-size: 25px;
     grid-template-columns: 3fr 1fr;
    align-items: center;
+   
     
 }
 #homesec img{
@@ -47,45 +50,87 @@ body{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     background-color:  rgba(246, 186, 34, 0.364)  ;
-    
-    
+    background-image: url("images/img.jpeg");
+    background-attachment: fixed;
+}
+.menu{
+    background-image: url("images/img.jpeg");
+    background-attachment: fixed;
 }
 .image{
     display: flex;
     justify-content: center;
 }
 .left{
-    background-image: url("images/left.jpeg");
+    background-image: url("images/img.jpeg");
     background-attachment: fixed;
+
     
 }
 .right{
-    background-image:url("images/right.jpeg");
+    background-image:url("images/img.jpeg");
     background-attachment: fixed;
    
 }
-.middle{
-    background-image:url("images/middle.jpeg");
-    background-attachment: fixed;
-}
-.items{
+
+
+.itemsR{
     display: grid;
-    grid-template-columns: 2fr 3fr 1fr 3fr 2fr;
+    grid-template-columns: 2fr 3fr 3fr 2fr;
    padding-bottom: 50px;
+   animation:  SideToSideL 5s ease infinite alternate-reverse;
+   background-color:  rgb(250, 217, 127)  ;
+
 }
-.items img{
+.itemsL{
+    display: grid;
+    grid-template-columns: 2fr 3fr 3fr 2fr;
+   padding-bottom: 50px;
+   animation:  SideToSideR 5s ease infinite alternate-reverse;
+   background-color:  rgb(250, 217, 127)  ;
+
+}
+.itemsL img{
     width:230px;
 }
-
-.content{
+.itemsR img{
+    width:230px;
+}
+.contentR{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     font-size: 20px;
+    animation:  SideToSideR 5s ease infinite alternate-reverse;
 }
+.contentL{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    animation:  SideToSideL 5s ease infinite alternate-reverse;
+}
+
 .dosaimg{
     background-image: url("dosa.jpg");
     background-attachment: fixed;
     
+}
+@keyframes SideToSideL{
+    from{
+        transform: translateX(-10%);
+    }
+    to{
+        transform: translateX(20%);
+    }
+}
+@keyframes SideToSideR{
+    from{
+        transform: translateX(20%);
+    }
+    to{
+        transform: translateX(-10%);
+    }
 }
