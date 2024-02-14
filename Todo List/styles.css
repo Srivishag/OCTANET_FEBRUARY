@@ -1,0 +1,90 @@
+body{
+    background-image: url("bg.jpeg");
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align:center;
+    font-size: 4.5rem;
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-family: 'Shadows Into Light', cursive;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    
+}
+button:hover{
+    background-color: rgb(38, 38, 38);
+}
+button:active{
+    background-color: rgba(146, 142, 142, 0.725);
+}
+.todobody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*:focus{
+    outline: none;
+}
+.list{
+    font-family: "Rock Salt", cursive;
+    border-bottom: 2px solid rgb(111, 107, 107);
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+.list p{
+    text-align: center;
+}
+.list button{
+    height:60px;
+    padding:0px;
+    margin: 20px;
+}
+input{
+    font-family: "Rock Salt", cursive;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-bottom: 2px solid rgb(111, 107, 107);
+    margin-right: 20px;
+    
+}
+.todoinput{
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    
+}
+.check{
+    color: white;
+    width:50px;
+    margin-left: 20px;
+}
+.listbody{
+    padding:20px;
+}
+.body{
+    border:2px solid white;
+    background-color: rgb(0, 0, 0);
+    margin:50px;
+    height: 600px;
+    width:600px;
+    overflow-y: scroll;
+    padding-bottom: 50px;
+}
