@@ -1,7 +1,7 @@
 # OCTANET_FEBRUARY
 # Octanet Internship Projects Repository
 
-Welcome to the Octanet Internship Projects repository! This repository contains various projects that I workED on as part of the Octanet internship program.
+Welcome to the Octanet Internship Projects repository! This repository contains various projects that I worked on as part of the Octanet internship program.
 
 ### Projects Overview
 
